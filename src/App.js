@@ -1,10 +1,3 @@
-// Direction:
-/*
-Everytime click button, it should generate a new random number
-
-This random number will be used to access the value of the JSON object--new quote
-*/
-
 import React from 'react';
 import './App.css';
 
