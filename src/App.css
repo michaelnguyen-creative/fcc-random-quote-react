@@ -1,0 +1,53 @@
+#wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: snow;
+  position: absolute;
+  top: -10%;
+  bottom: auto;
+  margin: 20%;
+  padding: 10%;
+  border: 1px solid black;
+}
+
+h1 {
+  margin-top: -20%;
+  margin-bottom: 10%;
+}
+
+#quote-box {
+  margin-bottom: 10%;
+}
+
+#text {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+#text::before {
+  content: '"';
+}
+
+#text::after {
+  content: '"';
+}
+
+#author {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#author::before {
+  content: '— '
+}
+
+#new-quote {
+  margin: 10%;
+}
+
+#tweet-quote {
+ margin: 10%;
+}
